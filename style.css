@@ -86,6 +86,8 @@ body {
 }
 
 #header img.logo{
+    width: 64px;
+    height: 64px;
     display: flex;
     margin-left: 40px;
 }
@@ -132,7 +134,7 @@ body {
 
 /* Home page */
 #hero{
-    background-image: url("img/hero1.jpg");
+    background-image: url("img/hero2.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -317,3 +319,115 @@ body {
     color: white;
 
 }
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #1a1a1a;
+}
+
+#newsletter p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #E3E6F3;
+
+}
+
+#newsletter p span {
+    color: rgb(196, 5, 69);
+
+}
+
+#newsletter .form{
+    display: flex;
+    width: 30;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    font-weight: 100;
+    background-color: #533064;
+    color: #E3E6F3;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#newsletter button:hover{
+    background: #333232;
+    color: #a370bd;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+   margin-bottom: 20px;
+}
+
+footer .logo{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #2d033d;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover{
+    color:#2d033d
+}
+    
